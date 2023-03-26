@@ -27,7 +27,7 @@ public class homeWork {
 //  Таким образом, первые несколько (или все) элементов массива должны быть отличны от заданного,
 //  а остальные - равны ему.
     private static void removeNumberToEndArray() {
-        int[] arr = new int[] {3, 2, 3, 2, 3, 10, 12, 3, -1};
+        int[] arr = new int[] {2, 2, 3, 2, 3, 10, 12, 3, -1};
         int number = 3;
         int j = 0;
         for (int i = 0; i < arr.length; i++) {
