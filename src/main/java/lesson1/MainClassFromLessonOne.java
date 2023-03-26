@@ -6,6 +6,6 @@ public class MainClassFromLessonOne {
     }
 
     private static void exeOne() {
-        System.out.println("научите меня программировать.");
+        System.out.println("Научите меня программировать.");
     }
 }
