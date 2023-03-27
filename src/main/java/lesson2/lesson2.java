@@ -1,13 +1,16 @@
 package lesson2;
+
 import java.util.Scanner;
 import java.lang.String;
+
 public class lesson2 {
     public static void main(String[] args) {
 //        createString();
         countchar();
 //        palindrome();
     }
-//    Дано четное число N (>0) и символы c1 и c2.
+
+    //    Дано четное число N (>0) и символы c1 и c2.
 //    Написать метод, который вернет строку длины N, которая состоит из чередующихся символов c1 и c2, начиная с c1.
     private static void createString() {
         Scanner scanner = new Scanner(System.in);
@@ -25,7 +28,8 @@ public class lesson2 {
         }
         System.out.println(sb.toString());
     }
-//    Напишите метод, который сжимает строку.
+
+    //    Напишите метод, который сжимает строку.
 //    Пример: вход aaaabbbcdd.
     private static void countchar() {
         String str = "aaaabbbcdddd";
@@ -44,7 +48,7 @@ public class lesson2 {
                 }
             }
         }
-        System.out.println(result.append(str.charAt(str.length() - 1)).append(count > 1 ? count: " ").toString());
+        System.out.println(result.append(str.charAt(str.length() - 1)).append(count > 1 ? count : "").toString());
     }
 
     //    Напишите метод, который принимает на вход строку (String) и определяет
